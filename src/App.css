@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #cae9ff;
+  min-height: 100vh;
+}
+
+.counter {
+  text-align: center;
+  width: 20vw;
+  height: 20vh;
+  top: 20%;
+  left: 40%;
+  position: absolute;
+  background-color: #1b4965;
+  border-radius: 3%;
+  box-shadow: 8px 5px 5px #62b6cb;
+}
+
+.counter h3 {
+  font-size: 49px;
+  margin: 2rem auto;
+  color: #cae9ff;
+}
+
+.countController {
+  color: #fff;
+  background-color: #1b4965;
+  padding:0rem 1rem 0.2rem 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.countController:nth-child(1) {
+  border-radius: 10% 0% 0% 10%; 
+  border-color: #1b4965;
+  border-width: 1px 0px 1px 1px;
+  box-shadow: 1px 1px 1px #000;
+}
+.countController:nth-child(2) {
+  border-radius: 0% 10% 10% 0%; 
+  border-color: #1b4965;
+  border-width: 1px 1px 1px 0px;
+  box-shadow: 1px 1px 1px #000;
+}
+
+.countController:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+
+.btnHolder {
+  margin-top: 4rem;
+}
